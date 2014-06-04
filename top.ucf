@@ -1,0 +1,31 @@
+NET "o_seg[0]" LOC = T17;
+NET "o_seg[1]" LOC = T18;
+NET "o_seg[2]" LOC = U17;
+NET "o_seg[3]" LOC = U18;
+NET "o_seg[4]" LOC = M14;
+NET "o_seg[5]" LOC = N14;
+NET "o_seg[6]" LOC = L14;
+NET "o_seg[7]" LOC = M13;
+
+NET "o_sel[0]" LOC = N16;
+NET "o_sel[1]" LOC = N15;
+NET "o_sel[2]" LOC = P18;
+NET "o_sel[3]" LOC = P17;
+
+NET "clk"   LOC = V10;
+NET "rst_n" LOC = B8;
+NET "rst_n" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "data_in[5]" LOC = U8;
+NET "data_in[4]" LOC = N8;
+NET "data_in[3]" LOC = M8;
+NET "data_in[2]" LOC = V9;
+NET "data_in[1]" LOC = T9;
+NET "data_in[0]" LOC = T10;
+
+NET "empty_flag"   LOC = U15;
+NET "loading_flag" LOC = V16;
+NET "full_flag"    LOC = U16;
+
+NET "read"  LOC = C4;
+NET "write" LOC = D9;
